@@ -1,7 +1,7 @@
 # Kaggle Competion Notebook
 ## [Loan Prediction](https://www.kaggle.com/competitions/playground-series-s4e10)
 
-This repository contains a Jupyter notebook (`kaggle_loan_prediction.ipynb`) that demonstrates the process of training a machine learning model for a Kaggle competition. The notebook includes data preprocessing, model training, evaluation, and deployment steps.
+This repository contains a Jupyter notebook ([kaggle_loan_prediction.ipynb](https://github.com/chusk2/kaggle_loan_prediction/blob/main/kaggle_loan_prediction.ipynb)) that demonstrates the process of training a machine learning model for a Kaggle competition. The notebook includes data preprocessing, model training, evaluation, and deployment steps.
 
 ## Table of Contents
 
@@ -124,6 +124,6 @@ else:
 
 # Conclusion
 
-This notebook demonstrates the complete workflow of building, evaluating, and deploying a machine learning model for a Kaggle competition. By following the steps outlined in this notebook, you can train a model, evaluate its performance, and deploy it for making predictions on new data.
+This notebook demonstrates the complete workflow of building, evaluating, and deploying a machine learning model for a Kaggle competition, along with MLflow integration for experiment tracking and model management. By following the steps outlined in this notebook, you can train a model, evaluate its performance, deploy it for making predictions on new data, and track your experiments using MLflow.
 
 Feel free to explore the notebook and modify the code to suit your specific use case.
