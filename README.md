@@ -122,6 +122,22 @@ else:
     print("Response content:", response.content)
 ```
 
+## Docker Deployment
+
+This repository also includes a `Dockerfile` that can be used to deploy the model in a Docker container. The Dockerfile sets up the necessary environment and dependencies to serve the model using MLflow.
+
+### Dockerfile
+
+The `Dockerfile` is located in the root directory of the repository. It contains the instructions to build a Docker image that includes the MLflow server and the trained model.
+
+### Building the Docker Image
+
+To build the Docker image, navigate to the root directory of the repository and run the following command:
+
+```sh
+docker build -t loan_prediction_model .
+```
+
 # Conclusion
 
 This notebook demonstrates the complete workflow of building, evaluating, and deploying a machine learning model for a Kaggle competition, along with MLflow integration for experiment tracking and model management. By following the steps outlined in this notebook, you can train a model, evaluate its performance, deploy it for making predictions on new data, and track your experiments using MLflow.
