@@ -55,7 +55,7 @@ preprocessor = ColumnTransformer(
 ## Model Training
 We define a function to create a pipeline that includes preprocessing and the model. We then train the model using the training data.
 
-```
+```python
 from lightgbm import LGBMClassifier
 
 # Define the function to create the pipeline
